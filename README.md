@@ -83,8 +83,6 @@ How to start the project:
 	react-redux - Package for integrating Redux with React applications.
 
 ```bash
-Certainly! Here are the links to the packages used in the format you requested:
-
 - [@awrminkhodaei/react-native-horizontal-date-picker](https://github.com/awrminkhodaei/react-native-horizontal-datepicker)
 - [@react-navigation/native](https://reactnavigation.org/docs/getting-started)
 - [@react-navigation/native-stack](https://reactnavigation.org/docs/stack-navigator/)
