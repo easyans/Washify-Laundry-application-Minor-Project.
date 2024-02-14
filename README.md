@@ -64,23 +64,23 @@ How to start the project:
     
 ## List of packages used:
 
-	@awrminkhodaei/react-native-horizontal-date picker – A package for a horizontal date picker in React Native.
-	@react-navigation/native - React Navigation package for managing navigation in React Native apps.
-	@react-navigation/native-stack - React Navigation package for managing stack-based navigation in React Native apps.
-	@reduxjs/toolkit - Package for efficient Redux development.
-	deprecated-react-native-prop-types - Package for handling deprecated React Native prop types.
-	expo - Development platform for building mobile applications.
-	expo-location - Package providing location services for Expo applications.
-	expo-status-bar - Package for managing the status bar in Expo applications.
-	firebase - Package for integrating Firebase services into applications.
-	lottie-react-native - Package for integrating Lottie animations into React Native applications.
-	moment-jalaali - Package for working with the Jalaali calendar system in Moment.js.
-	react - React package for building user interfaces.
-	react-native - React Native package for building mobile applications.
-	react-native-image-slider-box - Package for implementing an image slider in React Native applications.
-	react-native-safe-area-context - Package for handling safe area insets in React Native applications.
-	react-native-screens - Package for managing screens in React Native applications.
-	react-redux - Package for integrating Redux with React applications.
+-	@awrminkhodaei/react-native-horizontal-date picker – A package for a horizontal date picker in React Native.
+-	@react-navigation/native - React Navigation package for managing navigation in React Native apps.
+-	@react-navigation/native-stack - React Navigation package for managing stack-based navigation in React Native apps.
+-	@reduxjs/toolkit - Package for efficient Redux development.
+-	deprecated-react-native-prop-types - Package for handling deprecated React Native prop types.
+-	expo - Development platform for building mobile applications.
+-	expo-location - Package providing location services for Expo applications.
+-	expo-status-bar - Package for managing the status bar in Expo applications.
+-	firebase - Package for integrating Firebase services into applications.
+-	lottie-react-native - Package for integrating Lottie animations into React Native applications.
+-	moment-jalaali - Package for working with the Jalaali calendar system in Moment.js.
+-	react - React package for building user interfaces.
+-	react-native - React Native package for building mobile applications.
+-	react-native-image-slider-box - Package for implementing an image slider in React Native applications.
+-	react-native-safe-area-context - Package for handling safe area insets in React Native applications.
+-	react-native-screens - Package for managing screens in React Native applications.
+-	react-redux - Package for integrating Redux with React applications.
 
 ```bash
 - [@awrminkhodaei/react-native-horizontal-date-picker](https://github.com/awrminkhodaei/react-native-horizontal-datepicker)
