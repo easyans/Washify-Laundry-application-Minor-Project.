@@ -7,7 +7,6 @@
 
 - [@Aakash Raj](https://www.github.com/easyans)
 - [@Sai Medha Sinha]()
-- [@Dr.A. Helen Victoria]()
 
 
 
