@@ -100,3 +100,29 @@ How to start the project:
 - react-native-screens [GitHub](https://github.com/software-mansion/react-native-screens)
 - react-redux [official website](https://react-redux.js.org/)
 ```
+-------------------------------------------------------------------------------------------------------
+```
+List of packages Installation commands
+
+| Package | Installation Command |
+|---|---|
+| @awrminkhodaei/react-native-horizontal-datepicker | npm install @awrminkhodaei/react-native-horizontal-datepicker |
+| @react-navigation/native | npm install @react-navigation/native |
+| @react-navigation/native-stack | npm install @react-navigation/native-stack |
+| @reduxjs/toolkit | npm install @reduxjs/toolkit |
+| deprecated-react-native-prop-types | npm install deprecated-react-native-prop-types |
+| expo (global) | npm install -g expo-cli |
+| expo-location (assuming expo installed) | expo install expo-location |
+| expo-status-bar (assuming expo installed) | expo install expo-status-bar |
+| firebase (additional setup required) | npm install firebase |
+| lottie-react-native | npm install lottie-react-native |
+| moment-jalaali | npm install moment-jalaali |
+| react (consider create-react-app) | npm install react |
+| react-native (consider create-react-app) | npm install react-native |
+| react-native-image-slider-box | npm install react-native-image-slider-box |
+| react-native-safe-area-context | npm install react-native-safe-area-context |
+| react-native-screens | npm install react-native-screens |
+| react-redux | npm install react-redux |
+
+
+```
