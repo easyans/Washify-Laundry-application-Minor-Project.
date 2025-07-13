@@ -10,11 +10,18 @@ import { decrementQty, incrementQty } from "../ProductReducer";
 
 const DressItem = ({ item }) => {
   const dispatch = useDispatch();
-  const cart = useSelector((state) => state.cart.cart);
+  const cart = useSelector((state) => state.cart.cart) || [];
+  
+  // Safety checks
+  if (!item) {
+    return null;
+  }
+
   const addItemToCart = () => {
-    dispatch(addToCart(item)); // cart
-    dispatch(incrementQty(item)); // product
+    dispatch(addToCart(item));
+    dispatch(incrementQty(item));
   };
+
   return (
     <View>
       <Pressable
@@ -61,8 +68,8 @@ const DressItem = ({ item }) => {
           >
             <Pressable
               onPress={() => {
-                dispatch(decrementQuantity(item)); // cart
-                dispatch(decrementQty(item)); // product
+                dispatch(decrementQuantity(item));
+                dispatch(decrementQty(item));
               }}
               style={{
                 width: 26,
@@ -71,14 +78,13 @@ const DressItem = ({ item }) => {
                 borderColor: "#BEBEBE",
                 backgroundColor: "#E0E0E0",
                 justifyContent: "center",
-                alignContent: "center",
+                alignItems: "center",
               }}
             >
               <Text
                 style={{
                   fontSize: 20,
                   color: "black",
-                  paddingHorizontal: 6,
                   fontWeight: "600",
                   textAlign: "center",
                 }}
@@ -96,14 +102,14 @@ const DressItem = ({ item }) => {
                   fontWeight: "600",
                 }}
               >
-                {item.quantity}
+                {item.quantity || 1}
               </Text>
             </Pressable>
 
             <Pressable
               onPress={() => {
-                dispatch(incrementQuantity(item)); // cart
-                dispatch(incrementQty(item)); //product
+                dispatch(incrementQuantity(item));
+                dispatch(incrementQty(item));
               }}
               style={{
                 width: 26,
@@ -112,14 +118,13 @@ const DressItem = ({ item }) => {
                 borderColor: "#BEBEBE",
                 backgroundColor: "#E0E0E0",
                 justifyContent: "center",
-                alignContent: "center",
+                alignItems: "center",
               }}
             >
               <Text
                 style={{
                   fontSize: 20,
                   color: "black",
-                  paddingHorizontal: 6,
                   fontWeight: "600",
                   textAlign: "center",
                 }}
